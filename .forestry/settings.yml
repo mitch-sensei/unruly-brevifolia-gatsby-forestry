@@ -9,7 +9,6 @@ sections:
 - type: document
   path: IPFS
   label: IPFS
-  match: "**/*"
 - type: directory
   path: content/posts
   label: Blog Posts
