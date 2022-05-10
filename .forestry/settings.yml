@@ -12,15 +12,12 @@ sections:
 - type: document
   path: smart-contracts
   label: Smart Contracts
-  match: "**/*"
 - type: document
   path: vpn
   label: Decentralized VPNs
-  match: "**/*"
 - type: document
   path: counter-analytics
   label: Blockchain Counter-Analytics
-  match: "**/*"
 - type: document
   path: content/data/info.json
   label: About
