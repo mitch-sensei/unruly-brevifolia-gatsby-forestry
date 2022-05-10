@@ -7,23 +7,23 @@ sections:
 - type: heading
   label: Unruly Chain
 - type: document
-  path: IPFS
+  path: ipfs
   label: IPFS
-- type: directory
-  path: content/posts
-  label: Blog Posts
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - blog-post
-  - blog-post
 - type: document
-  path: content/data/authors.yaml
-  label: Author List
+  path: smart-contracts
+  label: Smart Contracts
+  match: "**/*"
+- type: document
+  path: vpn
+  label: Decentralized VPNs
+  match: "**/*"
+- type: document
+  path: counter-analytics
+  label: Blockchain Counter-Analytics
+  match: "**/*"
 - type: document
   path: content/data/info.json
-  label: Info Page
+  label: About
 - type: heading
   label: General Config
 - type: document
